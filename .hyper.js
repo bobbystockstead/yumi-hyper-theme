@@ -12,7 +12,7 @@ module.exports = {
         scrollback: 3000,
 
         // default font size in pixels for all tabs
-        fontSize: 12,
+        fontSize: 13,
 
         // font family with optional fallbacks
         fontFamily: 'Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace, Monaco, PowerlineSymbols',
@@ -30,7 +30,7 @@ module.exports = {
         letterSpacing: 0,
 
         // terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwb or cmyk)
-        cursorColor: 'rgba(248,28,229,0.8)',
+        cursorColor: 'rgba(51, 176, 78, 0.9)',
 
         // terminal text color under BLOCK cursor
         cursorAccentColor: '#000',
@@ -42,11 +42,11 @@ module.exports = {
         cursorBlink: false,
 
         // color of the text
-        foregroundColor: '#fff',
+        foregroundColor: '#eff0eb',
 
         // terminal background color
         // opacity is only supported on macOS
-        backgroundColor: '#000',
+        backgroundColor: '#282a36',
 
         // terminal selection color
         selectionColor: 'f81ce5',
@@ -77,21 +77,21 @@ module.exports = {
         // an array here instead of a color map object
         colors: {
             black: '#000000',
-            red: '#C51E14',
-            green: '#1DC121',
-            yellow: '#C7C329',
-            blue: '#0A2FC4',
-            magenta: '#C839C5',
-            cyan: '#20C5C6',
+            red: '#ff5c57',
+            green: '#5af78e',
+            yellow: '#f3f99d',
+            blue: '#57c7ff',
+            magenta: '#ff6ac1',
+            cyan: '#9aedfe',
             white: '#C7C7C7',
             lightBlack: '#686868',
-            lightRed: '#FD6F6B',
-            lightGreen: '#67F86F',
-            lightYellow: '#FFFA72',
+            lightRed: '#ff5c57',
+            lightGreen: '#5af78e',
+            lightYellow: '#f3f99d',
             lightBlue: '#6A76FB',
-            lightMagenta: '#FD7CFC',
-            lightCyan: '#68FDFE',
-            lightWhite: '#FFFFFF',
+            lightMagenta: '#ff6ac1',
+            lightCyan: '#9aedfe',
+            lightWhite: '#C7C7C7',
         },
 
         // the shell to run when spawning a new session (i.e. /usr/local/bin/fish)
@@ -171,7 +171,7 @@ module.exports = {
     //   `hyperpower`
     //   `@company/project`
     //   `project#1.0.1`
-    plugins: ["hyper-pane", "hyper-snazzy", "hyper-background"],
+    plugins: ["hyper-pane", "hyper-background"],
 
     // in development, you can create a directory under
     // `~/.hyper_plugins/local/` and include it here
